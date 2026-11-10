@@ -96,3 +96,5 @@ Always up for a hackathon team, a research question, or hearing about what you'r
 [![Portfolio](https://img.shields.io/badge/Portfolio-avery--lee.vercel.app-e2495b?style=for-the-badge)](https://avery-lee.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-averylee12-0d0f14?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/averylee12)
 [![Devpost](https://img.shields.io/badge/Devpost-avery--lee-0d0f14?style=for-the-badge&logo=devpost&logoColor=white)](https://devpost.com/avery-lee)
+
+<!-- last updated: Nov 2026 -->
