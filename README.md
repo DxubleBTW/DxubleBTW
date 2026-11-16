@@ -17,18 +17,18 @@ I study **Statistics + Computer Science** at Boston University (Kilachand Honors
 <tr>
 <td valign="top">
 
+<a href="https://heyartemis.boston"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/artemis-logo-dark.png"><img src="assets/artemis-logo-light.png" alt="artemis." width="170" align="right"></picture></a>
+
 #### [Artemis](https://github.com/BU-Hackathonz/Artemis)
 🥇 *Winner, Accessibility Track, HackUMass XIV 2026*
 
-AI coding tools assume you can see the diff. Artemis is a voice-first coding companion for blind developers: say what you want built, hear a short summary of each change, approve it, and hear what *actually* ran, down to the exit code and the last line of output. It runs on Ubuntu with the Orca screen reader, and your voice never leaves your laptop.
+Voice-first coding for blind developers. Say what you want built, approve each change, and hear what actually ran.
 
-**My part:** the policy gate that ties every approval to the exact action you reviewed, the Ubuntu desktop tools, and the speech layer that reads code, tracebacks, and errors aloud correctly.
+**My part:** the approval gate, the Ubuntu desktop tools, and the speech layer that reads code and errors aloud.
 
-`1,713` server tests · `217` client tests · `26` browser tests · prompt-injection tests for the desktop tools
+`1,713` server tests · `217` client tests · `26` browser tests
 
-<a href="https://github.com/BU-Hackathonz/Artemis"><img src="assets/artemis.png" alt="An Artemis session: the activity log shows a spoken request, Artemis reading back the change, the user pressing Enter to approve and run, and the result read aloud. Below, four demo cards: Hello World by voice, a failed run explained, risky code blocked, and a hostile README ignored." width="100%"></a>
-
-Python · FastAPI · Claude API · faster-whisper · Playwright · GNOME Shell · Tauri · React
+Python · FastAPI · Claude API · faster-whisper · Playwright · GNOME Shell
 
 [**Visit the site**](https://heyartemis.boston) · [Devpost](https://devpost.com/software/artemis-o149cr)
 
