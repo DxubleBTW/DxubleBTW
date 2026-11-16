@@ -2,10 +2,10 @@
 
 ### hey, I'm Avery 👋
 
-I study **Statistics + Computer Science** at Boston University (Kilachand Honors College), and I like building software that gets people where they're going, whether that's down the right hallway or safely past a strobing webpage. This fall my teams shipped two projects at two hackathons, and both won.
+I study **Statistics + Computer Science** at Boston University (Kilachand Honors College), and I like building software that gets people where they're going, whether that's down the right hallway, safely past a strobing webpage, or through a codebase without ever looking at the screen. This fall my teams shipped three projects at three hackathons, and all three won.
 
-- 🧭 &nbsp;Building web apps, browser extensions, and the tests that keep them honest
-- 🐶 &nbsp;Currently: something new — it lands here this month
+- 🧭 &nbsp;Building web apps, browser extensions, voice tools, and the tests that keep them honest
+- 🐶 &nbsp;Currently: building the next one (there's always a next one)
 - 📦 &nbsp;Up next: incoming SWE at Amazon
 - 🎲 &nbsp;Fun fact: I got into stats because of a Galton board. Bounce a ball left or right at random 16 times, do it a few hundred times, and you *still* get a bell curve. Still blows my mind.
 
@@ -14,6 +14,26 @@ I study **Statistics + Computer Science** at Boston University (Kilachand Honors
 ### 🏆 Things I've shipped
 
 <table>
+<tr>
+<td valign="top">
+
+#### [Artemis](https://github.com/BU-Hackathonz/Artemis)
+🥇 *Winner, Accessibility Track, HackUMass XIV 2026*
+
+AI coding tools assume you can see the diff. Artemis is a voice-first coding companion for blind developers: say what you want built, hear a short summary of each change, approve it, and hear what *actually* ran, down to the exit code and the last line of output. It runs on Ubuntu with the Orca screen reader, and your voice never leaves your laptop.
+
+**My part:** the policy gate that ties every approval to the exact action you reviewed, the Ubuntu desktop tools, and the speech layer that reads code, tracebacks, and errors aloud correctly.
+
+`1,713` server tests · `217` client tests · `26` browser tests · prompt-injection tests for the desktop tools
+
+<a href="https://github.com/BU-Hackathonz/Artemis"><img src="assets/artemis.png" alt="The Artemis island at the top of an Ubuntu desktop: a request box reading 'tour the screen', then the island showing 'Working', then 'Done'" width="520"></a>
+
+Python · FastAPI · Claude API · faster-whisper · Playwright · GNOME Shell · Tauri · React
+
+[**Visit the site**](https://heyartemis.boston) · [Devpost](https://devpost.com/software/artemis-o149cr)
+
+</td>
+</tr>
 <tr>
 <td valign="top">
 
