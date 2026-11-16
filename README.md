@@ -28,7 +28,7 @@ Voice-first coding for blind developers. Say what you want built, approve each c
 
 `1,713` server tests · `217` client tests · `26` browser tests
 
-<img src="assets/artemis-approval.png" alt="Artemis approval dialog: Review file changes, a one-line diff, and Reject and Approve buttons" width="49%"> <img src="assets/artemis-island.png" alt="The Artemis bar on the Ubuntu desktop, showing Working, then Done" width="49%">
+<img src="assets/artemis-approval.jpg" alt="Artemis waiting for approval: a Review file changes dialog with a Bandit scan showing 0 findings, and Reject and Approve buttons" width="49%"> <img src="assets/artemis-run.jpg" alt="Artemis after a failed run: the bar reads Failed, exit 1, above a terminal showing NameError: name pritn is not defined. Did you mean print?" width="49%">
 
 Python · FastAPI · Claude API · faster-whisper · Playwright · GNOME Shell
 
