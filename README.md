@@ -26,7 +26,7 @@ AI coding tools assume you can see the diff. Artemis is a voice-first coding com
 
 `1,713` server tests · `217` client tests · `26` browser tests · prompt-injection tests for the desktop tools
 
-<a href="https://github.com/BU-Hackathonz/Artemis"><img src="assets/artemis.png" alt="The Artemis island at the top of an Ubuntu desktop: a request box reading 'tour the screen', then the island showing 'Working', then 'Done'" width="520"></a>
+<a href="https://github.com/BU-Hackathonz/Artemis"><img src="assets/artemis.png" alt="An Artemis session: the activity log shows a spoken request, Artemis reading back the change, the user pressing Enter to approve and run, and the result read aloud. Below, four demo cards: Hello World by voice, a failed run explained, risky code blocked, and a hostile README ignored." width="100%"></a>
 
 Python · FastAPI · Claude API · faster-whisper · Playwright · GNOME Shell · Tauri · React
 
