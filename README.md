@@ -22,13 +22,16 @@ I study **Statistics + Computer Science** at Boston University (Kilachand Honors
 #### [Artemis](https://github.com/BU-Hackathonz/Artemis)
 🥇 *Winner, Accessibility Track, HackUMass XIV 2026*
 
-Voice-first coding for blind developers. Say what you want built, approve each change, and hear what actually ran.
+AI coding tools assume you can see the diff. Artemis is a voice-first coding companion for blind developers: say what you want built, and it reads back what it heard, summarizes each change before you approve it, scans the code for security issues, then runs it and tells you exactly what happened, down to the exit code and the error line.
+
+Speech recognition runs on your laptop, every approval is locked to the exact change you heard, and it works alongside the Orca screen reader on Ubuntu, so you never need sighted help.
 
 **My part:** the approval gate, the Ubuntu desktop tools, and the speech layer that reads code and errors aloud.
 
 `1,713` server tests · `217` client tests · `26` browser tests
 
 <img src="assets/artemis-approval.jpg" alt="Artemis waiting for approval: a Review file changes dialog with a Bandit scan showing 0 findings, and Reject and Approve buttons" width="49%"> <img src="assets/artemis-run.jpg" alt="Artemis after a failed run: the bar reads Failed, exit 1, above a terminal showing NameError: name pritn is not defined. Did you mean print?" width="49%">
+<img src="assets/artemis-features.jpg" alt="Three Artemis feature cards: Your voice never leaves your laptop; Approvals locked to the exact change; Hear the page like a screen reader does" width="99%">
 
 Python · FastAPI · Claude API · faster-whisper · Playwright · GNOME Shell
 
