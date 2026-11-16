@@ -28,6 +28,8 @@ Voice-first coding for blind developers. Say what you want built, approve each c
 
 `1,713` server tests · `217` client tests · `26` browser tests
 
+<img src="assets/artemis-approval.png" alt="Artemis approval dialog: Review file changes, a one-line diff, and Reject and Approve buttons" width="49%"> <img src="assets/artemis-island.png" alt="The Artemis bar on the Ubuntu desktop, showing Working, then Done" width="49%">
+
 Python · FastAPI · Claude API · faster-whisper · Playwright · GNOME Shell
 
 [**Visit the site**](https://heyartemis.boston) · [Devpost](https://devpost.com/software/artemis-o149cr)
