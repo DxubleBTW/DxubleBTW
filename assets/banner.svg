@@ -10,7 +10,7 @@
 <text x="64" y="92" class="m" font-size="18" fill="#e2495b">$ whoami</text>
 <text x="64" y="160" class="t" font-size="64" font-weight="800" fill="#f2efe9">Avery Lee<tspan fill="#e2495b">.</tspan></text>
 <text x="64" y="206" class="t" font-size="24" fill="#f2efe9" opacity=".9">Software that gets people where they're going.</text>
-<text x="64" y="252" class="m" font-size="16" fill="#8b909c">Statistics + CS @ Boston University  ·  3x hackathon winner<tspan class="cur" fill="#e2495b"> ▍</tspan></text>
+<text x="64" y="252" class="m" font-size="16" fill="#8b909c">Statistics + CS @ Boston University  ·  4x hackathon winner<tspan class="cur" fill="#e2495b"> ▍</tspan></text>
 <circle cx="930.0" cy="40.0" r="2.2" fill="#8b909c" opacity=".55"/>
 <circle cx="917.0" cy="54.0" r="2.2" fill="#8b909c" opacity=".55"/>
 <circle cx="943.0" cy="54.0" r="2.2" fill="#8b909c" opacity=".55"/>

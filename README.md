@@ -2,7 +2,7 @@
 
 ### hey, I'm Avery 👋
 
-I study **Statistics + Computer Science** at Boston University (Kilachand Honors College), and I like building software that gets people where they're going, whether that's down the right hallway, safely past a strobing webpage, or through a codebase without ever looking at the screen. This fall my teams shipped three projects at three hackathons, and all three won.
+I study **Statistics + Computer Science** at Boston University (Kilachand Honors College), and I like building software that gets people where they're going, whether that's down the right hallway, safely past a strobing webpage, through a codebase without ever looking at the screen, or over to the table that needs you. This fall my teams shipped four projects at four hackathons, and all four won.
 
 - 🧭 &nbsp;Building web apps, browser extensions, voice tools, and the tests that keep them honest
 - 🐶 &nbsp;Currently: building the next one (there's always a next one)
@@ -14,6 +14,31 @@ I study **Statistics + Computer Science** at Boston University (Kilachand Honors
 ### 🏆 Things I've shipped
 
 <table>
+<tr>
+<td valign="top">
+
+<a href="https://tapin.boston"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tapin-logo-dark.png"><img src="assets/tapin-logo-light.png" alt="tap in" width="170" align="right"></picture></a>
+
+#### [Tap In](https://github.com/BU-Hackathonz/TapIn)
+🥇 *Best Use of Tiger Data, BostonHacks 2026*
+
+Walking into a room full of students doesn't tell you who to sit with. With Tap In, you tap your badge at a station when you arrive, and the wall display and your phone show who you already know there and which tables could use your skills. Walk over, tap in together, and you're part of the group, with points for every new person you meet.
+
+Every tap is time-series data, so it all lives in Tiger Data (TimescaleDB): raw taps and scans go into hypertables, and real-time continuous aggregates keep the live stats on the wall current without rescanning rows.
+
+**My part:** the badge stations (ESP32 and RC522 readers, their firmware and enclosures), the live stats and leaderboard on Tiger Data's continuous aggregates, and the Devpost write-up.
+
+`259 ms` median tap-to-reply · `40-min` station soak with zero failed polls · `115+` PRs merged in about 24 hours
+
+<img src="assets/tapin-build.jpg" alt="The team at BostonHacks with the badge stations, ESP32 boards and RFID readers spread across the table" width="49%"> <img src="assets/tapin-phone.jpg" alt="Tap In on a phone: where you stand, the room map with tables, and your profile" width="49%">
+<img src="assets/tapin-wall.jpg" alt="The Tap In host wall with sample data: tables as clusters of people with lines for who has met, groups by points, a needs board, and a scans-per-10-minutes chart" width="99%">
+
+Python · FastAPI · Tiger Data (TimescaleDB) · ESP32 · Arduino · Gemini API
+
+[**Visit the site**](https://tapin.boston)
+
+</td>
+</tr>
 <tr>
 <td valign="top">
 
