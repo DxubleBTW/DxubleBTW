@@ -30,7 +30,7 @@ Every tap is time-series data, so it all lives in Tiger Data (TimescaleDB): raw 
 
 `259 ms` median tap-to-reply · `40-min` station soak with zero failed polls · `115+` PRs merged in about 24 hours
 
-<img src="assets/tapin-build.jpg" alt="The team at BostonHacks with the badge stations, ESP32 boards and RFID readers spread across the table" width="49%"> <img src="assets/tapin-phone.jpg" alt="Tap In on a phone: where you stand, the room map with tables, and your profile" width="49%">
+<img src="assets/tapin-signup.jpg" alt="Tap In on a phone: sign up with your skills, tap a blank badge at any station within 30 seconds, then see where you stand" width="49%"> <img src="assets/tapin-phone.jpg" alt="Tap In on a phone: where you stand, the room map with tables, and your profile" width="49%">
 <img src="assets/tapin-wall.jpg" alt="The Tap In host wall with sample data: tables as clusters of people with lines for who has met, groups by points, a needs board, and a scans-per-10-minutes chart" width="99%">
 
 Python · FastAPI · Tiger Data (TimescaleDB) · ESP32 · Arduino · Gemini API
